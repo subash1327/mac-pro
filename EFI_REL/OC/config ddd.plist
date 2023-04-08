@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeviceProperties</key>
+	<dict>
+		<key>Add</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Comet Lake-S 6c Host Bridge/DRAM Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,2</string>
+				<key>device_type</key>
+				<string>RAM memory</string>
+				<key>model</key>
+				<string>Tiger Lake-H Shared SRAM</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,22,0</string>
+				<key>device_type</key>
+				<string>Communication controller</string>
+				<key>model</key>
+				<string>Tiger Lake-H Management Engine Interface</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,23,0</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>???</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>???</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,0</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>???</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,4</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>Tiger Lake-H SMBus Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,5</string>
+				<key>device_type</key>
+				<string>Serial bus controller</string>
+				<key>model</key>
+				<string>Tiger Lake-H SPI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				BwCbPg==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>
+				mz4AAA==
+				</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-lspcon-support</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-alldata</key>
+				<data>
+				AQESAAAIAADHAwAAAgQSAAAIAACHAQAAAwYSAAAIAADH
+				AwAA
+				</data>
+				<key>framebuffer-con0-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-has-lspcon</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-preferred-lspcon-mode</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel CoffeeLake-H GT2 [UHD Graphics 630]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
